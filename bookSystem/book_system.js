@@ -26,8 +26,7 @@ function showbooks() {
         <p><strong>Book Name:</strong> ${book.name}</p>
         <p><strong>Author Name:</strong> ${book.authorName}</p>
         <p><strong>Book Description:</strong> ${book.bookDescription}</p>
-        <p><strong>No. of Pages:</strong> ${book.pagesNumber} mins</p>
-    `).join(''); // Use join to concatenate array elements into a string
+        <p><strong>No. of Pages:</strong> ${book.pagesNumber} mins</p>`).join(''); // Use join to concatenate array elements into a string
     document.getElementById('books').innerHTML = booksDiv;
 }
 
